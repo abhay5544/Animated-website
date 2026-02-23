@@ -2,6 +2,7 @@ import React from 'react'
 import Video from './video'
 const HomeHeroText = () => {
   return (
+    
     <div className='font-[font2] pt-5 text-center'>
       <div className='text-[9.5vw] justify-center flex items-center uppercase leading-[8vw]'> 
         L'étincelle
@@ -17,8 +18,12 @@ const HomeHeroText = () => {
       <div className='text-[9.5vw] justify-center flex items-center uppercase leading-[8vw]'> 
         la créativité 
         </div>
+
     </div>
+    
   )
 }
 
 export default HomeHeroText
+
+
