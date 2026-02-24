@@ -6,6 +6,7 @@ import Overview from './pages/overview'
 import Contact from './pages/Contact'
 import Navbar from './components/Navigation/navbar'
 import Stairs from './components/common/Stairs'
+import FullScreenNav from './components/Navigation/FullScreenNav'
 
 const App = () => {
 
@@ -13,12 +14,13 @@ const App = () => {
     
     <div className='text-white text-6xl'>
      <Navbar />
-     <Routes>
+     <FullScreenNav />
+     {/* <Routes>
       <Route path='/'element={<Home />}/> 
       <Route path='/projects'element={<Projects />}/>
       <Route path='/overview'element={<Overview />}/>
       <Route path='/contact'element={<Contact />}/>
-     </Routes>
+     </Routes> */}
     </div>
  
   )
